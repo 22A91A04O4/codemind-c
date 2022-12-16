@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int h,t,m,s;
+    int t,m,s,h;
     scanf("%d",&t);
     h=t/3600;
     int a=t-(h*3600);
