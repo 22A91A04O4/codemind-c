@@ -8,10 +8,10 @@ int main()
     while(m!=0)
     {
         r=m%10;
-        s=s+r;
         m=m/10;
+        s=s+r;
     }
-    if(s==n)
+    if(n==s)
     {
         printf("Neon Number");
     }
