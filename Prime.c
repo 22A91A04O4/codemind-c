@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,c=1;
+    int n,i,c=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
@@ -10,7 +10,7 @@ int main()
             c++;
         }
     }
-    if(c==3)
+    if(c==2)
     {
         printf("Prime");
     }
